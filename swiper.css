@@ -1,0 +1,165 @@
+@font-face {
+    font-family: abster;
+    src: url(font/abster-webfont.woff) format('woff');
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+#assem_
+{
+    min-width: 100%;
+    width: 100%;
+    height: 100vh;
+}
+
+#header
+{
+    display: flex;
+    background-color: rgb(24, 27, 31);
+}
+
+.logo_
+{
+    width: 5%;
+}
+
+#assem_ .logo_ .logo_img
+{
+    width: 100%;
+    height: 100%;
+}
+/*fds*/
+#assem_ #header .menu_
+{
+    width: 50%;
+    margin-left: 20%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#header .menu_ ul
+{
+    display: flex;
+    height: 100%;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 90%;
+}
+
+.swiper-slide {
+    
+    background-image: url("images/cat1.jpg");
+    background-size: cover;
+    text-align: center;
+    font-size: 18px;
+    /*background: #fff;*/
+    /*background: #fff;*/
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    display: flex;
+    
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;     
+    -webkit-align-items: center;            /* 세로 중간 정렬 */
+    -webkit-justify-content: center;        /* 가로 중간 정렬 */
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*change progressbar place*/
+.swiper > .swiper-pagination-progressbar{
+    /* max-width: 800px; */
+    top: auto;
+    bottom: 0%;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+    /* margin-left: -400px; */
+}
+
+/*change progressbar color*/
+.swiper > .swiper-pagination-progressbar > .swiper-pagination-progressbar-fill{
+    background-color: black;
+}
+
+.bottom{
+    width:100%;
+    height: 100%;
+    background-color: rgb(24, 27, 31);
+
+}
+.bottom_main{
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+}
+.main_top{
+    background-color: antiquewhite;
+    width: 80%;
+    height: 25%;
+}
+.top_title{
+    text-align-last: start;
+    margin: 0 0 20px 0;
+    font-size: large;
+}
+.top_text{
+    word-break: break-all;
+}
+.main_middle{
+    background-color: aqua;
+    width: 80%;
+    height: 20%;
+}
+.main_bottom{
+    background-color: blue;
+    width: 80%;
+    height: 20%;
+}
