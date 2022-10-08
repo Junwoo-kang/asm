@@ -28,6 +28,10 @@ a
     text-decoration: none;
     color: white;
 }
+#context{
+    color: white;
+    float: left;
+}
 body {
     background: #eee;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -46,7 +50,7 @@ body {
 #header
 {
     display: flex;
-    background-color: rgb(24, 27, 31);
+    background-color: rgb(24, 44, 63);
 }
 
 .logo_
@@ -79,6 +83,8 @@ body {
 
 /* middle */
 #middle{
+    background-color: rgb(24, 27, 31);
+    color: white;
     width:100%;
     padding: 174px 0px 200px;
 }
@@ -107,7 +113,7 @@ body {
     font-weight: 600;
     line-height: 160%;
     letter-spacing: -0.02em;
-    color: rgb(51, 54, 58);
+    /* color: rgb(51, 54, 58); */
 }
 #member_list{
     
@@ -116,7 +122,7 @@ body {
     font-weight: 400;
     line-height: 150%;
     letter-spacing: -0.01em;
-    color: rgb(37, 40, 45);
+    /* color: rgb(37, 40, 45); */
     flex-wrap: wrap;
 }
 #second{
@@ -132,7 +138,6 @@ body {
     font-weight: 600;
     line-height: 160%;
     letter-spacing: -0.02em;
-    color: rgb(51, 54, 58);
 }
 #program_list{
     display: flex;
@@ -140,7 +145,6 @@ body {
     font-weight: 400;
     line-height: 150%;
     letter-spacing: -0.01em;
-    color: rgb(37, 40, 45);
     flex-wrap: wrap;
 }
 #third{
@@ -152,14 +156,15 @@ body {
     font-weight: 400;
     line-height: 150%;
     letter-spacing: -0.01em;
-    color: rgb(37, 40, 45);
+    /* color: rgb(37, 40, 45); */
     flex-wrap: wrap;
 }
 #photo{
-    width:80%;
+    width: 80%;
     padding: 0px 150px 0px 150px;
     display: block;
-    margin: 100px 0px 200px;
+    margin: auto;
+    margin-bottom: 7%;
 }
 #retrospect{
     
@@ -173,20 +178,24 @@ body {
 
 #retrospect_box{
     width: auto;
-    padding: 0px 160px;
+    /* padding: 0px 160px; */
     margin-bottom: 168px;
 }
 #retrospect_main{
-    margin-left: -30px;
+    /* margin-left: -30px; */
     display: flex;
     flex-direction: row;
     width: auto;
+    
+    justify-content: center;
 }
 #retrospect_text_border{
-    
-    padding-left: 30px;
+
+    /* padding-left: 30px; */
     background-clip: padding-box;
-    width: auto !important;
+    /* width: auto !important; */
+    width: min-content;
+    margin-right: 1%;
 }
 /* ,#retrospect_text_2,#retrospect_text_3,#retrospect_text_4 */
 #retrospect_text_1,#retrospect_text_2{
@@ -196,7 +205,7 @@ body {
     /* width: 635px;  */
     height: auto;
     border-radius: 20px;
-    background-color: rgb(244, 247, 250);
+    background-color: rgb(65, 117, 169);;
     min-width: 584px;
     padding: 24px;
     box-sizing: border-box;
@@ -212,6 +221,37 @@ body {
     letter-spacing: -0.02em;
     margin-bottom: 24px;
 }
-#content{
+#bottom{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#bottom_container{
+    outline: 0;
+    border: 0;
+    margin:0 3% 0 0;
+    background-color: rgb(24, 27, 31);
 
 }
+#bottom_menu{
+    height: auto;
+    margin-bottom: 3%;
+
+}
+/* #bottom_menu_1{
+    height: auto;
+    margin-bottom: 3%;
+
+}
+#bottom_menu_2{
+    height: auto;
+    margin-bottom: 3%;
+}
+#bottom_menu_3{
+    height: auto;
+    margin-bottom: 3%;
+}  */
+
+
+
