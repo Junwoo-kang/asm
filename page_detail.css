@@ -50,7 +50,9 @@ body {
 #header
 {
     display: flex;
-    background-color: rgb(24, 44, 63);
+    /* background-color: rgb(24, 44, 63); */
+    background-color: rgb(24, 27, 31);
+    
 }
 
 .logo_
@@ -83,7 +85,8 @@ body {
 
 /* middle */
 #middle{
-    background-color: rgb(24, 27, 31);
+    /* background-color: rgb(24, 27, 31); */
+    background-color: rgb(53 58 64);
     color: white;
     width:100%;
     padding: 174px 0px 200px;
